@@ -8,11 +8,5 @@
             InitializeComponent();
         }
 
-
-
-        private async void OnOpenWebPageClicked(object? sender, EventArgs e)
-        {
-            await Detail.Navigation.PushAsync(new WebPageLauncherPage());
-        }
     }
 }
