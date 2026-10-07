@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:mauidemocrashwebview20261007="clr-namespace:MauiDemoCrashWebview20261007"
+            x:Class="MauiDemoCrashWebview20261007.MainPage">
+
+
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu">
+            <Label Text="Menu"/>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+
+
+        <NavigationPage>
+
+            <x:Arguments>
+                <mauidemocrashwebview20261007:WebPageLauncherPage/>
+            </x:Arguments>
+        </NavigationPage>
+
+    </FlyoutPage.Detail>
+
+</FlyoutPage>
